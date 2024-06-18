@@ -1,0 +1,59 @@
+.d-flex.flex-column.flex-shrink-0.p-3.bg-light {
+    width: 280px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 1000;
+}
+
+.custom-text {
+    font-size: 2rem;
+    color: green;
+    letter-spacing: 0.5px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Use a sans-serif font */
+    font-weight: 500; /* Set font weight to bold (700) */
+    font-stretch: condensed; /* Condense the font further */
+    border-radius: 3px; /* Add a slight rounded corner to the text */
+    padding: 2px 5px; /* Add some padding for better rounded appearance */
+
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Your+Cursive+Font&display=swap');
+
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.btn-outline-secondary {
+    color: #333;
+    border-color: #ffd6d6;
+    background-color: #ffd6d6;
+}
+.btn-outline-secondary:hover {
+    color: #333;
+    background-color: #ffc9c9;
+    border-color: #ffc9c9;
+}
+
+.card-img-wrapper {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      padding: 1rem;
+                      background-color: #FFF0F0; /* Light pink background as in the image */
+                    }
+                    .card-img-top {
+                      width: 90%;
+                      max-width: 80%;
+                      height: auto;
+                    }
+ .wishlist i {
+    color: #dc3545;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.wishlist i:hover {
+    transform: scale(1.2);
+}
